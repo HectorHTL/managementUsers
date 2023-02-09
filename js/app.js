@@ -2,9 +2,9 @@
 //     navigator.serviceWorker.register("./sw.js");
 // }
 
-import { getAllUsersFire, createUserFire,deleteUserFire } from "/js/firebase-functions.js";
+import { getAllUsersFire, createUserFire,deleteUserFire } from "/managementUsers/js/firebase-functions.js";
 import {getStorage,ref, uploadBytes,getDownloadURL } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-storage.js";
-import { app } from "/js/firebase.js";
+import { app } from "/managementUsers/js/firebase.js";
 const storage = getStorage(app);
 const getAllUsers = () => {
   getAllUsersFire();
