@@ -1,7 +1,7 @@
 import {
   collection,query,where,getDocs,getFirestore,addDoc,doc,updateDoc,limit,startAfter, startAt,orderBy, deleteDoc
 } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
-import { app } from "/users/js/firebase.js";
+import { app } from "/managementUsers/js/firebase.js";
 
 const db = getFirestore(app);
 
